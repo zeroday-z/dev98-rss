@@ -1,0 +1,149 @@
+html {
+    background: linear-gradient( rgb(18 20 23), rgb(15 16 19));
+}
+.middle {
+	text-align: center;
+	text-decoration: none;
+}
+
+.middle:hover {
+	text-align: center;
+	text-decoration: none!important;
+}
+
+.a-right {
+	text-align: right;
+	color: white;
+	text-transform: none!important;
+}
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal;
+}
+
+.nav-dark {
+	background-color: #1f2127!important;
+}
+
+.jumbotron-custom {
+	background-image: url(/assets/img/map.png), linear-gradient( rgb(18 20 23), rgb(15 16 19));
+	padding-top: 80px;
+	padding-bottom: 80px;
+	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.small-p {
+	color: #ccc;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.bg-darkgreyish {
+	background-color: #191b1f;
+}
+
+.j-h1 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	margin-bottom: 4px;
+}
+
+.pb-3,
+.px-3 {
+	padding-bottom: 0rem!important;
+}
+
+.pt-3,
+.px-3 {
+	padding-bottom: 0rem!important;
+}
+
+.mainpart {
+	background-color: #191b1f!important;
+	font-family: Poppins!important;
+}
+
+.smallhead {
+	position: relative;
+	padding: 10px 20px;
+	margin: -20px -20px;
+	background: #1f2127;
+	border-radius: 3px 3px 0 0;
+	/* transition: top ease 0.4s */
+}
+
+.box-head {
+	color: #fff;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.box-custom:hover {
+	top: -9px;
+}
+
+.btn {
+	display: inline-block;
+	color: white;
+	margin-bottom: 0;
+	text-align: center!important;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	padding: 14px 26px;
+	line-height: 1.42857143;
+	font-size: 13px;
+	font-weight: 600;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.4s linear 0s;
+	transition: all 0.4s linear 0s;
+}
+
+.box-custom {
+	padding: 1px 0 10px 0;
+	margin: 0 0 20px 0;
+	background: #23252d;
+	border-radius: 3px;
+	border: 1px solid #23252d;
+	transition: top ease 0.4s;
+	top: 0;
+}
+
+.white-p {
+	color: white;
+}
+
+@import "bootstrap";
+@media (min-width:768px) {
+	.card-deck>.card {
+		width: 29%;
+		flex-wrap: wrap;
+		flex: initial;
+	}
+}
+
+.error-container {
+	text-align: center;
+}
