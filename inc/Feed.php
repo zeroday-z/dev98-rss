@@ -2,7 +2,7 @@
 /**
  * RSS feed fetcher
  * written in PHP
- * @zeroday
+ * @Deni
  */
 try {
     // enable error logging
